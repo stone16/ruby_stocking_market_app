@@ -1,3 +1,5 @@
+# that's the place we add 3rd party pkgs, like package.json in js, or bazel, maven to manage your pkgs and versions etc.
+
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 

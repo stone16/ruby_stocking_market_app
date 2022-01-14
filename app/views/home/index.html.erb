@@ -8,7 +8,6 @@
 
 <% end %>
 
-
-    <% stock = StockQuote::Stock.logo("fb") %>
-
-<img src="<%= stock.url %>">
+<% if @stock %>
+  <%= @stock.company_name %>
+<% end %>

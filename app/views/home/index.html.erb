@@ -1,2 +1,14 @@
 <h1>Stocking</h1>
 <p>Find me in app/views/home/index.html.erb</p>
+
+
+<%= form_tag root_path, :method => 'POST' do %>
+  <%= text_field_tag 'ticker', nil, placeholder: "Enter Ticker Symbol", size: 50 %>
+  <%= submit_tag 'Lookup'%>
+
+<% end %>
+
+
+    <% stock = StockQuote::Stock.logo("fb") %>
+
+<img src="<%= stock.url %>">

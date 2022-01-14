@@ -1,5 +1,6 @@
 class HomeController < ApplicationController
   def index
+    @api = StockQuote::Stock.new(api_key: 'pk_f96573054f054ea89d898452cbf16cb2')
   end
 
   def about

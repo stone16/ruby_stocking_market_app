@@ -2,6 +2,10 @@
 
 Personal Project, literally wanna understand how ruby on rails work by doing a personal project.
 
+This app is pretty lightweight, just use ruby on rails, devise for user management, and use some stock qupte api to get info. 
+
+Two table, one for user info, another one for stock info, also build association among those two tables. 
+
 # How to run the app 
 
 `rails server` 
